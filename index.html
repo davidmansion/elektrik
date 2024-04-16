@@ -3,89 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electrical Installation Certificate (EIC)</title>
+    <title>Main Menu</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Electrical Installation Certificate (EIC)</h1>
+        <h1>Main Menu</h1>
     </header>
     <main>
-        <section id="installer-details">
-            <h2>Installer Details</h2>
-            <form id="installer-form">
-                <div class="form-group">
-                    <label for="installer-name">Installer Name:</label>
-                    <input type="text" id="installer-name" name="installer-name" required>
-                </div>
-                <div class="form-group">
-                    <label for="installer-license">Installer License No.:</label>
-                    <input type="text" id="installer-license" name="installer-license" required>
-                </div>
-                <!-- Add more installer details fields as needed -->
-            </form>
-        </section>
-        <section id="installation-details">
-            <h2>Installation Details</h2>
-            <form id="installation-form">
-                <div class="form-group">
-                    <label for="location">Location:</label>
-                    <input type="text" id="location" name="location" required>
-                </div>
-                <div class="form-group">
-                    <label for="address">Address:</label>
-                    <textarea id="address" name="address" rows="3" required></textarea>
-                </div>
-                <!-- Add more installation details fields as needed -->
-            </form>
-        </section>
-        <section id="distribution-board">
-            <h2>Distribution Board Details</h2>
-            <form id="distribution-board-form">
-                <div class="form-group">
-                    <label for="db-location">Location:</label>
-                    <input type="text" id="db-location" name="db-location" required>
-                </div>
-                <div class="form-group">
-                    <label for="db-type">Type:</label>
-                    <input type="text" id="db-type" name="db-type" required>
-                </div>
-                <!-- Add more distribution board details fields as needed -->
-            </form>
-        </section>
-        <section id="circuit-details">
-            <h2>Schedule of Circuit Details</h2>
-            <table id="circuit-table">
-                <thead>
-                    <tr>
-                        <th>Circuit Reference</th>
-                        <th>Description</th>
-                        <th>Protective Device</th>
-                        <th>Test Results</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Add rows dynamically using JavaScript -->
-                </tbody>
-            </table>
-            <button id="add-circuit-btn">Add Circuit</button>
-        </section>
-        <section id="observations">
-            <h2>Observations and Recommendations</h2>
-            <textarea id="observations-text" name="observations" rows="5"></textarea>
-        </section>
-        <section id="declaration">
-            <h2>Declaration of Compliance</h2>
-            <p>I declare that the electrical installation described above has been designed, constructed, and tested in accordance with BS 7671 (The IET Wiring Regulations).</p>
-            <label for="signature">Signature:</label>
-            <input type="text" id="signature" name="signature" required>
-            <button id="submit-btn">Submit</button>
-        </section>
+        <ul>
+            <li><a href="eic.html">Electrical Installation Certificate (EIC)</a></li>
+            <!-- Add links to other certificate pages -->
+        </ul>
     </main>
     <footer>
         <p>&copy; 2024 Electrical Test Certificate App</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
+               
 
