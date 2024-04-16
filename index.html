@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrical Test Certificate App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Electrical Test Certificate App</h1>
+    </header>
+    <main>
+        <section id="input-section">
+            <h2>Enter Test Results</h2>
+            <form id="certificate-form">
+                <div class="form-group">
+                    <label for="client-name">Client Name:</label>
+                    <input type="text" id="client-name" name="client-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="test-date">Test Date:</label>
+                    <input type="date" id="test-date" name="test-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="test-results">Test Results:</label>
+                    <textarea id="test-results" name="test-results" rows="4" required></textarea>
+                </div>
+                <button type="submit">Save Certificate</button>
+            </form>
+        </section>
+        <section id="certificate-section">
+            <h2>Generated Certificates</h2>
+            <div id="certificate-list">
+                <!-- Certificates will be displayed here dynamically -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Electrical Test Certificate App</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
